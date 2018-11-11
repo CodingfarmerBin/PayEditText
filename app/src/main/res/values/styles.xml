@@ -1,0 +1,28 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <!--支付EditText的属性-->
+  <declare-styleable name="PayEditText">
+    <attr name="payFigures" format="integer" />
+    <attr name="payMargin" format="dimension" />
+    <attr name="payDegree" format="dimension" />
+    <attr name="payBackgroundColor" format="reference" />
+  </declare-styleable>
+
+  <!--验证码EditText的属性-->
+  <declare-styleable name="VerificationCodeEditText">
+    <attr name="figures" format="integer" />
+    <attr name="verCodeMargin" format="dimension" />
+    <attr name="bottomLineSelectedColor" format="reference" />
+    <attr name="bottomLineNormalColor" format="reference" />
+    <attr name="bottomLineHeight" format="dimension" />
+    <attr name="selectedBackgroundColor" format="reference" />
+  </declare-styleable>
+</resources>
